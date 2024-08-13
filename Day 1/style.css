@@ -1,0 +1,88 @@
+.frame {
+  position: absolute;
+  font-family: 'Courier';
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: -webkit-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.uno{
+    width: 30px;
+    height: 120px;
+    background-color: white;
+    left: 10px;
+    z-index: 20;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+}
+.decoracion{
+    width: 26px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+    top: 2px;
+    left: -11px;
+    transform: rotate(49deg);
+    border-radius: 5px;
+}
+.cero{
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+    border: 28px solid white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.233);
+}
+
+.primero{
+    left: 29px;
+    z-index: 10;
+}
+.segundo{
+    left: 133px;
+}
+.cien{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 120px;
+}
+
+.cien > div {
+    position: absolute;
+}
+
+h2{
+    position: relative;
+    font-size: 99px;
+    margin: 0;
+    line-height: 81px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    line-height: 28px;
+    margin: 0;
+
+}
