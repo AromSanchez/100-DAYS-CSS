@@ -1,0 +1,102 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.2);
+	overflow: hidden;
+	background: #E56262;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  top: 90px;
+  left: 90px;
+}
+
+.circulo-1{
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px; /* Negative half of the circle's height */
+    margin-left: -50px;
+    position: absolute;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50%;
+    animation: circulo-1 3s ease alternate infinite;
+}
+
+.circulo-2{
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px; /* Negative half of the circle's height */
+    margin-left: -35px;
+    position: absolute;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50%;
+    animation: circulo-2 3s ease  alternate infinite;
+}
+.circulo-3{
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px; /* Negative half of the circle's height */
+    margin-left: -20px;
+    position: absolute;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 50%;
+    animation: circulo-3 3s ease  alternate infinite;
+}
+
+@keyframes circulo-1{
+    0% {
+        transform: scale(0);
+    }
+    10%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes circulo-2{
+    0% {
+        transform: scale(0);
+    }
+    40%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes circulo-3{
+    0% {
+        transform: scale(0);
+    }
+    70%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
